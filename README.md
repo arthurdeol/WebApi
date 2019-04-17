@@ -16,11 +16,12 @@ Neste projeto foi usado o SQL server como forma de armazenamento de dados, para 
 #Passo a passo para executar
 
 1.Iniciando aplicação 
+
   dotnet run
 
 #Passo a passo para testar as requisições no Browser
 
-1.Pesquisar pot todos os elementos
+1.Pesquisar por todos os elementos
 https://localhost:5001/api/orders/Getall
 
 2.Pesquisar um ou mais elemento por Id:
