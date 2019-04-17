@@ -25,20 +25,27 @@ Neste projeto foi usado o SQL server como forma de armazenamento de dados, para 
 https://localhost:5001/api/orders/Getall
 
 2.Pesquisar um ou mais elemento por Id:
+
 Obs: para requisitar mais de um id, é necessario colocar o caracter '+' entre os ids
 
 2.1 Somente 1 id
+
 Nesse caso foi pesquisado o id 1
+
 https://localhost:5001/api/orders/GetOrders/1 
 
 2.1 Multiplos ids
+
 No seguinte caso retorna os elementos com ids {1,2,5,6}
+
 https://localhost:5001/api/orders/GetOrders/1+2+5+6 
 
 3.Pesquisar por ordem de preço
 
 3.1 Ordem Decrescente
+
 https://localhost:5001/api/orders/Getalldesc
 
 3.2 Por Ordem Crescente
+
 https://localhost:5001/api/orders/Getallasc
