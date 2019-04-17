@@ -5,7 +5,8 @@ Challenge-Junior-Developer
 
 Projeto desenvolvido em asp.net core + entityFramework
 
-Padrão utilizado Repository Pattern
+Padrão utilizado Repository Pattern :
+
 Para isolar as camadas de acesso(com isso fica mais fácil realizar o teste) e não duplicar a logica no código.
 
 #Armazenamento do objeto
